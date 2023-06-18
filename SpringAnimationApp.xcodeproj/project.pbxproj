@@ -14,6 +14,7 @@
 		EDB574B12A3EFCDA00836610 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDB574B02A3EFCDA00836610 /* Assets.xcassets */; };
 		EDB574B42A3EFCDA00836610 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDB574B22A3EFCDA00836610 /* LaunchScreen.storyboard */; };
 		EDB574C32A3EFE4400836610 /* SpringAnimation in Frameworks */ = {isa = PBXBuildFile; productRef = EDB574C22A3EFE4400836610 /* SpringAnimation */; };
+		EDB574C52A3F056700836610 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB574C42A3F056700836610 /* DataStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		EDB574B02A3EFCDA00836610 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EDB574B32A3EFCDA00836610 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EDB574B52A3EFCDA00836610 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDB574C42A3F056700836610 /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 		EDB574C02A3EFDEB00836610 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				EDB574C42A3F056700836610 /* DataStore.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -195,6 +198,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDB574AC2A3EFCD800836610 /* ViewController.swift in Sources */,
+				EDB574C52A3F056700836610 /* DataStore.swift in Sources */,
 				EDB574A82A3EFCD800836610 /* AppDelegate.swift in Sources */,
 				EDB574AA2A3EFCD800836610 /* SceneDelegate.swift in Sources */,
 			);
